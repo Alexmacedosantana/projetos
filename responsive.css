@@ -1,0 +1,21 @@
+@media (max-width: 968px) {
+    body {
+      flex-direction: column;
+     width: 100%;
+     gap: 10px;
+    }
+
+    #ex20 {
+      position: static;
+      margin-top: 20px;
+      transform: none;
+      left: auto;
+      top: auto;
+      width: 90vw;
+    }
+
+    #fechar-btn {
+      top: 5px;
+      right: 10px;
+    }
+  }

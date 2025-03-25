@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to right, rgb(13, 32, 234), rgb(0, 0, 0));
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+  }
+
+  .title {
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(13, 234, 116), rgb(2, 95, 118));
+    background-clip: text;
+    color: transparent;
+  }
+
+  .container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid blue;
+    transition: 1s;
+    z-index: 1;
+  }
+
+  div:hover {
+    transform: scale(1.1);
+    border-color: #8a2be2;
+    box-shadow: 0px 0px 8px rgba(138, 43, 226, 0.8);
+    outline: none;
+  }
+
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    border-color: #8a2be2;
+    color: white;
+    transition: 3s;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  input:hover {
+    transform: scale(1.1);
+    border-color: #8a2be2;
+    box-shadow: 0px 0px 8px rgba(138, 43, 226, 0.8);
+    outline: none;
+  }
+
+  button {
+    background-image: linear-gradient(to right, rgb(13, 32, 234), rgb(0, 0, 0));
+    width: 100%;
+    padding: 4px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 2s;
+  }
+
+  button:hover {
+    transform: scale(1);
+    border-color: #8a2be2;
+    outline: none;
+  }
+
+  /* Mensagem */
+  #ex20 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 20px 15px 20px;
+    border: 2px solid #8a2be2;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    left: calc(50% + 200px); /* Ao lado da div central */
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    max-width: 250px;
+    min-width: 200px;
+    box-shadow: 0px 0px 12px rgba(138, 43, 226, 0.5);
+  }
+
+  #mensagem-texto {
+    font-size: 16px;
+  }
+
+  #fechar-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    transform: translate(+49%, -12%);
+  }
+
+  #fechar-btn:hover {
+    color: red;
+  }
+
